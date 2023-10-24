@@ -1,1 +1,5 @@
-header {text-align: left ;}
+h1 {text-align: center;}
+li {display:inline;
+text-align: left;}
+img {border: 2px, solid, black;}
+li {border: 2px, solid, black;}

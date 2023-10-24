@@ -1,14 +1,21 @@
-body {background-color: rgb(142, 204, 206);
+body {margin: 1%; background-color: rgb(142, 204, 206);
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-h1 {text-align: center; padding-bottom: 0px;}
-img {/*border: 2px solid black; */
-    width: 160px;
-    margin: 0%;}
+   }
+header {display: inline-flex;}
+h1 {text-align: center;}
+#profil {/*border: 2px solid black;*/
+    width: 160px;}
 /*nav {border: 1px solid black; width: 300px;}*/
-nav {display:inline-flex; 
-    /*border: 2px solid black; */
-    width: 80%;
-    margin: 0px;}
-li {display: inline; padding: 140px;}
+nav {/*border: 2px solid black;*/
+    width: 1242px;}
+ul {margin-top: 5%;}
+li {display: inline; 
+    padding-left: 200px;
+    margin-top: 10px;
+    font-family: comic 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande', 
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+    font-size: larger;}

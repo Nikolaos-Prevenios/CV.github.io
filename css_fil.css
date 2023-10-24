@@ -1,4 +1,10 @@
-h1 {text-align: center;}
-li {display:inline;}
-section {display: inline-block;
-text-align: left;}
+h1 {text-align: center; padding-bottom: 0px;}
+img {border: 2px solid black; 
+    width: 120px;}
+/*nav {border: 1px solid black; width: 300px;}*/
+nav {display:inline-flex; 
+    border: 2px solid black; 
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 0px;}
+li {display: inline; padding: 150px;}

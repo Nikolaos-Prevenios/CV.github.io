@@ -3,16 +3,22 @@ body {margin: 1%;
     background-attachment: fixed;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   }
-header li a {background-color: rgba(53, 97, 10, 0.466);
-        }
+    color: rgb(233, 236, 245);
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);}
+
+a {color: white ; text-decoration: none;}
+a:hover {color: blue; font-style: italic;}
+a:active {color: deeppink; font-style: oblique;}
+
 
 /*header inställningar*/
 header {display: inline-flex;}
 h1 {text-align: center;}
 #profil {width: 160px;}
 
-nav {width: 1242px;}
+nav {width: 1242px;
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.4), rgba(159, 159, 159, 0.2));
+    border-radius: 10px;}
 ul {margin-top: 5%;}
 li {display: inline; 
     padding-left: 200px;
@@ -51,9 +57,13 @@ a#csharp:active {background-position: 0px -626px;}
 
 
 /*Footer Css*/
-footer {text-align: center;}
+footer {text-align: center;
+    padding-bottom: 50px;
+    background-color: rgba(56, 54, 51, 0.5);
+    border-radius: 10px;}
 .logo {margin-left: 50px;
-    margin-right: 50px;}
+    margin-right: 50px;
+    width: 50px;}
 #buttontop {text-align: left;}
 
 

@@ -34,3 +34,11 @@ footer {text-align: center;}
     margin-right: 50px;}
 #buttontop {text-align: left;}
 
+fieldset {text-align: justify; margin-left: 490px;}
+.label {display: inline-block; text-align: left; width: 200px;}
+.input {display: inline-block; text-align: right; width: 200px;}
+.integrity {display: inline-flex; width: fit-content;}
+#check {margin: 20px;}
+#button {margin: 20px; margin-left: 150px;}
+textarea {display: block; width: 400px;}
+input {margin-bottom: 15px;}

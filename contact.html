@@ -23,7 +23,32 @@
         </header>
         <hr />
         <main> 
-            
+            <form action="example.php">
+                <fieldset>
+                    <legend>Contact me</legend>
+                    <section class="label">
+                        <p>First name</p>
+                        <p>Last name</p>
+                        <p>Mail address</p>
+                        <p>Phone number</p>
+                    </section>
+                    <section class="input">
+                        <input type="text" name="name" size="20" placeholder="Erik">
+                        <input type="text" name="lastname" size="20" placeholder="Eriksson">
+                        <input type="email" name="mail">
+                        <input type="tel" name="telephone">
+                    </section>
+                    <p>subject</p>
+                    <input type="text" name="sub" size="20">
+                    <textarea name="message" id="text" cols="50" rows="10" placeholder="Write here your message"></textarea>
+                    <section class="integrity">
+                        <p>integrity policy</p>
+                        <input id="check" type="checkbox" name="integrity policy" required value="agreed">
+                        <input id="button" type="submit" name="send" value="send">
+                    </section>
+                    
+                </fieldset>
+            </form>
         </main>
         <footer>
             <hr />

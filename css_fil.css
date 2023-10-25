@@ -18,6 +18,7 @@ h1 {text-align: center;}
 
 nav {width: 1242px;
     background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.4), rgba(159, 159, 159, 0.2));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.4), rgba(159, 159, 159, 0.2));
     border-radius: 10px;}
 ul {margin-top: 5%;}
 li {display: inline; 

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nikolaos Prevenios CV</title>
         <link rel="stylesheet" href="css_fil.css">
     </head>
@@ -20,46 +21,43 @@
                 </ul>
             </nav>
         </header>
-        <hr />
+        <hr>
         <main> 
             <form action="example.php">
                 <fieldset>
                     <legend>Contact me</legend>
-                    <section class="label">
+                    <div class="label">
                         <p>First name</p>
                         <p>Last name</p>
                         <p>Mail address</p>
                         <p>Phone number</p>
-                    </section>
-                    <section class="input">
+                    </div>
+                    <div class="input">
                         <input type="text" name="name" size="20" required placeholder="Erik">
                         <input type="text" name="lastname" size="20" required placeholder="Eriksson">
                         <input type="email" name="mail" required placeholder="example@gmail.com">
                         <input type="tel" name="telephone" required placeholder="+46 123456789">
-                    </section>
-                    <form action="">
-                        <p>Subject</p>
-                        <select name="Subject" id="">
-                            <option value="hiring">Hiring</option>
-                            <option value="Q&A">Q&A</option>
-                            <option value="suggestions">Suggestions</option>
-                        </select>
-                    </form>
+                    </div>
+                    <p>Subject</p>
+                    <select name="Subject" id="sub">
+                        <option value="hiring">Hiring</option>
+                        <option value="Q&A">Q&A</option>
+                        <option value="suggestions">Suggestions</option>
+                    </select>
                     <textarea name="message" id="text" cols="50" rows="10" placeholder="Write here your message"></textarea>
-                    <section class="integrity">
+                    <div class="integrity">
                         <p>Integrity policy</p>
                         <input id="check" type="checkbox" name="integrity policy" required value="agreed">
                         <input id="button" type="submit" name="send" value="send">
-                    </section>
-                    
+                    </div>
                 </fieldset>
             </form>
         </main>
         <footer>
-            <hr />
+            <hr>
             <a id="buttontop" href="#top">top</a>
-            <h3>Socials</h3>
             <section class="socials">
+                <h3>Socials</h3>
                 <a href="https://www.linkedin.com/in/nikolaos-prevenios-2aab7a9b/">
                     <img class="logo" 
                     src="bilder/LI-In-Bug.png" 
@@ -83,6 +81,13 @@
                     title="Youtube">
                 </a>
             </section>
+            <p id="cssval">
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:50px;height:22px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!">
+                </a>
+            </p>
         </footer>
     </body>
 </html>

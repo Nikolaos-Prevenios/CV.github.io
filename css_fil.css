@@ -24,11 +24,12 @@ ul {margin-top: 5%;}
 li {display: inline; 
     padding-left: 200px;
     margin-top: 10px;
-    font-family: comic 'Lucida Sans', 
+    font-family:'Lucida Sans', 
     'Lucida Sans Regular', 
     'Lucida Grande', 
     'Lucida Sans Unicode', 
-    Geneva, Verdana, sans-serif;
+    Geneva, Verdana, 
+    sans-serif;
     font-size: larger;}
 
 /*Main css*/
@@ -79,3 +80,5 @@ fieldset {text-align: justify; margin-left: 490px;
 #button {margin: 20px; margin-left: 150px;}
 textarea {display: block; width: 400px;}
 input {margin-bottom: 15px;}
+
+#cssval {text-align: right; width: 50px}

@@ -1,8 +1,13 @@
-body {margin: 1%; background-color: rgba(87, 169, 169, 0.408);
+body {margin: 1%; 
+    background-image: url(bilder/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    background-attachment: fixed;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
-   /*header inställningar*/
+header li a {background-color: rgba(53, 97, 10, 0.466);
+        }
+
+/*header inställningar*/
 header {display: inline-flex;}
 h1 {text-align: center;}
 #profil {width: 160px;}
@@ -26,17 +31,36 @@ h2 {text-align: center;}
                     width: 355px;
                     margin: 20px;
                     padding-left: 40px;
-                    padding-right: 40px; 
-                    column-rule-style: dashed;}
+                    padding-right: 40px;
+                    color: rgb(233, 236, 245);
+                    text-shadow: 1px 2px 2px rgb(0, 0, 0);}
 
-            /*Footer Css*/
+#hobbies p, #bio p, #exp p {background-color: rgba(56, 54, 51, 0.5);
+                            border-radius: 10px;
+                        padding: 10px;}
+
+figure {margin-left: 450px;}
+a.cbutton {height: 313px; 
+    background-image: url(bilder/Skärmbild\ 2023-10-25\ 161701.png);
+    display: inline-block;
+    border-radius: 10px;}
+a#csharp {width: 500px;
+        background-position: 0px 0px;}
+a#csharp:hover {background-position: 0px -313px;}
+a#csharp:active {background-position: 0px -626px;}
+
+
+/*Footer Css*/
 footer {text-align: center;}
 .logo {margin-left: 50px;
     margin-right: 50px;}
 #buttontop {text-align: left;}
 
+
 /*kontakt instälningar*/
-fieldset {text-align: justify; margin-left: 490px;}
+fieldset {text-align: justify; margin-left: 490px; 
+    background-color: rgba(200, 200, 200, 0.7);
+    border-radius: 10px;}
 .label {display: inline-block; text-align: left; width: 200px;}
 .input {display: inline-block; text-align: right; width: 200px;}
 .integrity {display: inline-flex; width: fit-content;}

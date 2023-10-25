@@ -2,6 +2,7 @@ body {margin: 1%; background-color: rgba(87, 169, 169, 0.408);
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
+   /*header inställningar*/
 header {display: inline-flex;}
 h1 {text-align: center;}
 #profil {width: 160px;}
@@ -34,6 +35,7 @@ footer {text-align: center;}
     margin-right: 50px;}
 #buttontop {text-align: left;}
 
+/*kontakt instälningar*/
 fieldset {text-align: justify; margin-left: 490px;}
 .label {display: inline-block; text-align: left; width: 200px;}
 .input {display: inline-block; text-align: right; width: 200px;}

@@ -1,0 +1,57 @@
+body {margin: 1%; 
+    background-image: url(bilder/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    background-attachment: fixed;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(233, 236, 245);
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);}
+
+a {color: white ; text-decoration: none;}
+a:hover {color: blue; font-style: italic;}
+a:active {color: deeppink; font-style: oblique;}
+
+
+/*header inställningar*/
+header {display: flex;
+        justify-content: space-evenly;}
+
+h1 {text-align: center;}
+
+#profil {width: 160px;}
+
+nav {width: 80%;
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.4), rgba(159, 159, 159, 0.2));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.4), rgba(159, 159, 159, 0.2));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;}
+
+ul {width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;}
+
+li {display: inline; 
+    font-family:'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande', 
+    'Lucida Sans Unicode', 
+    Geneva, Verdana, 
+    sans-serif;
+    font-size: larger;}
+
+/*Main css*/
+main {display: flex;
+    justify-content: space-around;}
+
+h2 {text-align: center;}
+
+#hobbies, #bio, #exp {text-align: justify; 
+                    width: 400px;
+                    color: rgb(233, 236, 245);
+                    text-shadow: 1px 2px 2px rgb(0, 0, 0);}
+
+#hobbies p, #bio p, #exp p {background-color: rgba(56, 54, 51, 0.5);
+                            border-radius: 10px;
+                            padding: 2%;}

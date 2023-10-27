@@ -12,18 +12,26 @@ a:active {color: deeppink; font-style: oblique;}
 
 
 /*header inställningar*/
-header {display: inline-flex;}
+header {display: flex;
+        justify-content: space-evenly;}
+
 h1 {text-align: center;}
+
 #profil {width: 160px;}
 
-nav {width: 1242px;
+nav {border: 1px dashed black;
+    width: 80%;
     background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.4), rgba(159, 159, 159, 0.2));
     background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.4), rgba(159, 159, 159, 0.2));
     border-radius: 10px;}
-ul {margin-top: 5%;}
+
+
+/*ul {border: 1px  dashed black;
+    display: flex;
+    justify-content: space-between;}*/
+
+
 li {display: inline; 
-    padding-left: 200px;
-    margin-top: 10px;
     font-family:'Lucida Sans', 
     'Lucida Sans Regular', 
     'Lucida Grande', 
@@ -38,7 +46,7 @@ h2 {text-align: center;}
 #hobbies, #bio, #exp {text-align: justify; 
                     width: 355px;
                     margin: 20px;
-                    padding-left: 40px;
+                    /*padding-left: 40px;*/
                     padding-right: 40px;
                     color: rgb(233, 236, 245);
                     text-shadow: 1px 2px 2px rgb(0, 0, 0);}

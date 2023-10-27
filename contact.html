@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css2.css">
     </head>
     <body>
-        <h1>Nikolaos Prevenios <br>CV</h1>
+        <h1 id="top"><a href="index.html">Nikolaos Prevenios <br>CV</a></h1>
         <header>
             <img id="profil" 
             src="bilder/profilbild2.webp" 
@@ -15,9 +15,10 @@
             title="Nikolaos Prevenios">
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="project.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="menu"><a href="index.html">Home</a></li>
+                    <li class="menu"><a href="project.html">Projects</a></li>
+                    <li class="menu"><a href="contact.html">Contact</a></li>
+                    <li class="menu">More</li>
                 </ul>
             </nav>
         </header>
@@ -54,44 +55,61 @@
             </form>
         </main>
         <footer>
-            <hr>
-            <a id="buttontop" href="#top">top</a>
+            <section class="contact_info">
+                <h3>Contact</h3>
+                <p>Address :<a href="https://maps.app.goo.gl/vPgp1ByuNSq5jRb78" target="_blank"> Brestorp Rundelen 1</a></p>
+                <p>Telephone :<a href="tel:0733225809" target="_blank"> 0733225809</a> </p>
+                <p>Email :<a href="mailto:nick_prevenios@hotmail.com" target="_blank"> nick_prevenios@hotmail.com</a></p>
+            </section>
             <section class="socials">
                 <h3>Socials</h3>
-                <a href="https://www.linkedin.com/in/nikolaos-prevenios-2aab7a9b/"
-                target="_blank">
-                    <img class="logo" 
-                    src="bilder/LI-In-Bug.png" 
-                    alt="linkedin" 
-                    title="LinkedIn" width="100"></a>
-                <a href="https://www.instagram.com/nick.prevenios/"
-                target="_blank">
-                    <img class="logo" src="bilder/instagram.png" 
-                    alt="instagram" 
-                    title="Instagram" width="85"></a>
-                
-                <a href="https://www.strava.com/athletes/7482829"
-                target="_blank">
-                    <img class="logo" 
-                    src="bilder/pngegg.png" 
-                    alt="strava" 
-                    title="Strava" width="90">
-                </a>
-                <a href="https://www.youtube.com/channel/UCskxeZ7lFwDXrhYGFosZkrg"
-                target="_blank">
-                    <img class="logo" 
-                    src="bilder/youtube.png" 
-                    alt="youtube" 
-                    title="Youtube">
-                </a>
+                <div class="social_logos">
+                    <div class="left_logos">
+                        <a href="https://www.linkedin.com/in/nikolaos-prevenios-2aab7a9b/"
+                        target="_blank">
+                        <img class="logo" 
+                        src="bilder/LI-In-Bug.png" 
+                        alt="linkedin" 
+                        title="linkedin link" width="100"></a>
+                        <a href="https://www.instagram.com/nick.prevenios/"
+                        target="_blank">
+                        <img class="logo" src="bilder/instagram.png" 
+                        alt="instagram" 
+                        title="instagram link" width="80"></a>
+                    </div>   
+                    <div class="right_logos">
+                        <a href="https://www.strava.com/athletes/7482829"
+                        target="_blank">
+                        <img class="logo" 
+                        src="bilder/pngegg.png" 
+                        alt="strava" 
+                        title="strava account" width="90">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCskxeZ7lFwDXrhYGFosZkrg"
+                        target="_blank">
+                        <img class="logo" 
+                        src="bilder/youtube.png" 
+                        alt="youtube" 
+                        title="youtube link" width="100">
+                        </a>
+                    </div>
+                </div>
             </section>
-            <p id="cssval">
-                <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                    <img style="border:0;width:50px;height:22px"
+            <section id="docs">
+                <h3>Docs</h3>
+                <a href="https://gdpr-info.eu/">GDRP</a> <br>
+                <a href="">CV</a>
+            </section>
+            <div class="ovrigt">
+                <a id="buttontop" href="#top">Top</a>
+                <p id="cssval">
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:50px;height:22px"
                         src="http://jigsaw.w3.org/css-validator/images/vcss"
                         alt="Valid CSS!">
-                </a>
-            </p>
+                    </a>
+                </p>
+            </div>
         </footer>
     </body>
 </html>

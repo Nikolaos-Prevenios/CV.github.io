@@ -22,8 +22,8 @@ h1 {text-align: center;}
 #profil {width: 160px;}
 
 nav {width: 80%;
-    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.4), rgba(159, 159, 159, 0.2));
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.4), rgba(159, 159, 159, 0.2));
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
     border-radius: 10px;
     display: flex;
     justify-content: center;}
@@ -54,7 +54,7 @@ width: 370px;
 color: rgb(233, 236, 245);
 text-shadow: 1px 2px 2px rgb(0, 0, 0);}
 
-#hobbies p, #bio p, #exp p {background-color: rgba(56, 54, 51, 0.5);
+#hobbies p, #bio p, #exp p {background-color: rgba(0, 0, 0, 0.4);
 border-radius: 10px;
 padding: 2%;}
                             
@@ -77,10 +77,33 @@ a#csharp:active {background-position: 0px -626px;}
 /*contact me page*/
 
 
+
+fieldset {display: flex;
+justify-content: space-around;
+flex-direction: column;
+background-color: rgba(0, 0, 0, 0.3);}
+
+.info_upper {display: flex;
+justify-content: space-around;}
+
+.input {display: flex;
+flex-direction: column;
+justify-content: space-around;}
+
+#textarea {display: flex;
+flex-direction: column;
+}
+#sub {width: 30%;}
+
+.integrity {display:  flex;
+justify-content: flex-start;}
+
+#button {width: 20%;}
+
 /*footer css*/
 footer {display: flex;
     justify-content: space-around;
-    background-color: rgba(56, 54, 51, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;}
 
 h3 {text-align: center;}

@@ -24,36 +24,41 @@
         </header>
         <hr>
         <main> 
-            <form action="example.php">
+            <form>
                 <fieldset>
                     <legend>Contact me</legend>
-                    <div class="label">
-                        <p>First name</p>
-                        <p>Last name</p>
-                        <p>Mail address</p>
-                        <p>Phone number</p>
+                    <div class="info_upper">
+                        <div class="label">
+                            <p>First name</p>
+                            <p>Last name</p>
+                            <p>Mail address</p>
+                            <p>Phone number</p>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="name" size="20" required placeholder="Erik">
+                            <input type="text" name="lastname" size="20" required placeholder="Eriksson">
+                            <input type="email" name="mail" required placeholder="example@gmail.com">
+                            <input type="tel" name="telephone" required placeholder="+46 123456789">
+                        </div>
                     </div>
-                    <div class="input">
-                        <input type="text" name="name" size="20" required placeholder="Erik">
-                        <input type="text" name="lastname" size="20" required placeholder="Eriksson">
-                        <input type="email" name="mail" required placeholder="example@gmail.com">
-                        <input type="tel" name="telephone" required placeholder="+46 123456789">
+                    <div id="textarea">
+                        <p>Subject</p>
+                        <select name="Subject" id="sub">
+                            <option value="hiring">Hiring</option>
+                            <option value="Q&A">Q&A</option>
+                            <option value="suggestions">Suggestions</option>
+                        </select>
+                        <textarea name="message" id="text" cols="50" rows="10" placeholder="Write here your message"></textarea>
                     </div>
-                    <p>Subject</p>
-                    <select name="Subject" id="sub">
-                        <option value="hiring">Hiring</option>
-                        <option value="Q&A">Q&A</option>
-                        <option value="suggestions">Suggestions</option>
-                    </select>
-                    <textarea name="message" id="text" cols="50" rows="10" placeholder="Write here your message"></textarea>
                     <div class="integrity">
                         <p>Integrity policy</p>
                         <input id="check" type="checkbox" name="integrity policy" required value="agreed">
-                        <input id="button" type="submit" name="send" value="send">
                     </div>
+                    <input id="button" type="submit" name="send" value="send">
                 </fieldset>
             </form>
         </main>
+        <hr>
         <footer>
             <section class="contact_info">
                 <h3>Contact</h3>

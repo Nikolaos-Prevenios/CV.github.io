@@ -6,8 +6,8 @@ color: aliceblue;
 font-size: x-large;}
 
 a {color: white ; text-decoration: none;}
-a:hover {color: blue; font-style: italic;}
-a:active {color: deeppink; font-style: oblique;}
+a:hover {color: rgb(0, 238, 255); font-style: italic;}
+a:active {color: rgb(255, 87, 176); font-style: oblique;}
 
 
 /*header inställningar*/
@@ -122,3 +122,41 @@ align-items: center;
     margin: 10px;}
 .ovrigt {display: flex;
 flex-direction: column;}
+
+/*drop down button*/
+.dropdown_button {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    padding: 16px;
+    font-size: inherit;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: rgba(223, 223, 223, 0.4);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown_content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown_content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown_content {display: block;}
+  
+  .dropdown:hover .dropdown_button {background-color: rgba(255, 255, 255, 0.4);}

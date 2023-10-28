@@ -1,5 +1,7 @@
 body {margin: 1%; 
     background-image: url(bilder/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

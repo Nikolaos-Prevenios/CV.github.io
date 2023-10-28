@@ -72,19 +72,22 @@ background-position: 0px 0px;}
 a#csharp:hover {background-position: 0px -313px;}
 a#csharp:active {background-position: 0px -626px;}
 
-
-
 /*contact me page*/
 
 fieldset {display: flex;
 justify-content: space-around;
 flex-direction: column;
-background-color: rgba(0, 0, 0, 0.3);}
+background-color: rgba(0, 0, 0, 0.3);
+border-radius: 10px;}
 
 .info_upper {display: flex;
 justify-content: space-around;}
 
 .input {display: flex;
+flex-direction: column;
+justify-content: space-around;}
+
+.label {display: flex;
 flex-direction: column;
 justify-content: space-around;}
 
@@ -161,7 +164,7 @@ flex-direction: column;}
     display: block;
   }
   
-  .dropdown_content a:hover {background-color: #ddd;}
+  .dropdown_content a:hover {background-color: #0065fc;}
   
   .dropdown:hover .dropdown_content {display: block;}
   

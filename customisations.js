@@ -7,9 +7,8 @@ function colorblind(){
         theme.setAttribute('href', 'css2.css');
     }
 }
-
-
-function largetext(){
-    const body = document.getElementsById('body');
-    body.style.fontSize = 'xx-large';
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', 
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
+     'google_translate_element');
 }

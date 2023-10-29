@@ -1,12 +1,12 @@
 body {margin: 1%; 
-    background-image: url(bilder/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(233, 236, 245);
-    text-shadow: 1px 2px 2px rgb(0, 0, 0);}
+background-image: url(bilder/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+font-size: large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(233, 236, 245);
+text-shadow: 1px 2px 2px rgb(0, 0, 0);}
 
 a {color: white ; text-decoration: none;}
 a:hover {color: blue; font-style: italic;}
@@ -15,58 +15,58 @@ a:active {color: deeppink; font-style: oblique;}
 
 /*header inställningar*/
 header {display: flex;
-        justify-content: space-evenly;}
+justify-content: space-evenly;}
 
 h1 {text-align: center;}
 
 #profil {width: 160px;}
 
 nav {width: 80%;
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;}
-    
-    ul {width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-left: 0px;}
-        
-        .menu {display: inline; 
-            font-family:'Lucida Sans', 
-            'Lucida Sans Regular', 
-            'Lucida Grande', 
-            'Lucida Sans Unicode', 
-            Geneva, Verdana, 
-            sans-serif;
-            font-size: larger;}
-            
-            /*Main css*/
-            main {display: flex;
-    justify-content: space-around;}
-    
-    
-    #meny {display: none;}
-    
-    h2 {text-align: center;}
-    
-    #hobbies, #bio, #exp {text-align: justify; 
-        width: 370px;
-        color: rgb(233, 236, 245);
-        text-shadow: 1px 2px 2px rgb(0, 0, 0);}
-        
-        #hobbies p, #bio p, #exp p {background-color: rgba(0, 0, 0, 0.4);
+background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
+background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
+border-radius: 10px;
+display: flex;
+justify-content: center;}
+
+ul {width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-left: 0px;}
+
+.menu {display: inline; 
+font-family:'Lucida Sans', 
+'Lucida Sans Regular', 
+'Lucida Grande', 
+'Lucida Sans Unicode', 
+Geneva, Verdana, 
+sans-serif;
+font-size: larger;}
+
+/*Main css*/
+main {display: flex;
+justify-content: space-around;}
+
+
+#meny {display: none;}
+
+h2 {text-align: center;}
+
+#hobbies, #bio, #exp {text-align: justify; 
+width: 370px;
+color: rgb(233, 236, 245);
+text-shadow: 1px 2px 2px rgb(0, 0, 0);}
+
+#hobbies p, #bio p, #exp p {background-color: rgba(0, 0, 0, 0.4);
 border-radius: 10px;
 padding: 2%;}
-                            
+
 /*Project page*/
 figure {display: flex;
 flex-direction: column;
 margin: 0px;}
 
-a.project_button {height: 313px; 
+a.project_button2 {height: 313px; 
 background-image: url(bilder/Skärmbild\ 2023-10-25\ 161701.png);
 border-radius: 10px;}
 
@@ -74,6 +74,16 @@ a#csharp {width: 500px;
 background-position: 0px 0px;}
 a#csharp:hover {background-position: 0px -313px;}
 a#csharp:active {background-position: 0px -626px;}
+
+a.project_button1 {height: 313px; 
+background-image: url(bilder/Skärmbild\ 2023-10-25\ 161701.png);
+border-radius: 10px;}
+
+a#webpage {width: 500px;
+background-position: 0px 0px;}
+a#webpage:hover {background-position: 0px -313px;}
+a#webpage:active {background-position: 0px -626px;}
+
 
 /*contact me page*/
 
@@ -106,9 +116,9 @@ justify-content: flex-start;}
 
 /*footer css*/
 footer {display: flex;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 10px;}
+justify-content: space-around;
+background-color: rgba(0, 0, 0, 0.4);
+border-radius: 10px;}
 
 h3 {text-align: center;}
 
@@ -116,10 +126,10 @@ h3 {text-align: center;}
 #buttontop {text-align: right;
 position: sticky;
 right: 0px;}
-            
+
 .contact_info {display: flex;
 flex-direction: column;}
-                    
+
 .socials {width: 33%;
 display: flex;
 justify-content: space-between;
@@ -131,45 +141,205 @@ justify-content: space-evenly;
 align-items: center;
 }
 .logo {width: 60px;
-    margin: 10px;}
+margin: 10px;}
 .ovrigt {display: flex;
 flex-direction: column;}
 
 /*drop down button*/
 .dropdown_button {
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
-    padding: 16px;
-    font-size: inherit;
-    border: none;
-    border-radius: 10px;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown_content {
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 10px;
-  }
-  
-  .dropdown_content a {
-    color: rgb(255, 255, 255);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown_content a:hover {background-color: #0065fc;}
-  
-  .dropdown:hover .dropdown_content {display: block;}
-  
-  .dropdown:hover .dropdown_button {background-color: rgba(0, 0, 0, 0.4);}
+background-color: rgba(0, 0, 0, 0.4);
+color: white;
+padding: 16px;
+font-size: inherit;
+border: none;
+border-radius: 10px;
+}
 
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown_content {
+display: none;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.4);
+min-width: 100px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+border-radius: 10px;
+}
+
+.dropdown_content a {
+color: rgb(255, 255, 255);
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown_content a:hover {background-color: #0065fc;}
+
+.dropdown:hover .dropdown_content {display: block;}
+
+.dropdown:hover .dropdown_button {background-color: rgba(0, 0, 0, 0.4);}
+
+@media only screen and (max-width: 768px){
+
+body {margin: 5%; 
+background-image: url(bilder/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+font-size: large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(233, 236, 245);
+text-shadow: 1px 2px 2px rgb(0, 0, 0);}
+
+a {color: white ; text-decoration: none;}
+a:hover {color: blue; font-style: italic;}
+a:active {color: deeppink; font-style: oblique;}
+
+/*header for mobile*/
+header {display: flex;
+  justify-content: space-evenly;}
+
+h1 {text-align: center;}
+
+#profil {width: 160px;}
+
+nav {width: 80%;
+background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
+background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
+border-radius: 10px;
+display: flex;
+justify-content: center;
+}
+
+ul {width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding-left: 0px;}
+
+.menu {display: inline; 
+font-family:'Lucida Sans', 
+'Lucida Sans Regular', 
+'Lucida Grande', 
+'Lucida Sans Unicode', 
+Geneva, Verdana, 
+sans-serif;
+font-size: larger;}
+
+ 
+
+/*Main index for mobile*/
+main {display: flex;
+justify-content: space-around;
+flex-direction: column;}
+
+#hobbies, #bio, #exp {text-align: justify; 
+width: auto;
+color: rgb(233, 236, 245);
+text-shadow: 1px 2px 2px rgb(0, 0, 0);}
+
+#hobbies p, #bio p, #exp p {background-color: rgba(0, 0, 0, 0.4);
+border-radius: 10px;
+padding: 2%;}
+
+/*Project page for mobile*/
+figure {display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 0px;}
+
+/*webpage button*/
+a.project_button1 {height: 313px; 
+background-image: url(bilder/Skärmbild\ 2023-10-25\ 161701.png);
+border-radius: 10px;}
+
+a#webpage {width: auto;
+background-position: 0px 0px;}
+a#webpage:hover {background-position: 0px -313px;}
+a#webpage:active {background-position: 0px -626px;}
+    
+/*Csharp */
+a.project_button2 {height: 313px; 
+background-image: url(bilder/Skärmbild\ 2023-10-25\ 161701.png);
+border-radius: 10px;
+margin-top: 10%;}
+
+a#csharp {width: auto;
+background-position: 0px 0px;}
+a#csharp:hover {background-position: 0px -313px;}
+a#csharp:active {background-position: 0px -626px;}
+
+/*contact me page for mobile*/
+
+fieldset {width: auto;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+background-color: rgba(0, 0, 0, 0.3);
+border-radius: 10px;}
+
+.info_upper {display: flex;
+justify-content: space-around;}
+
+.input, .label {display: flex;
+flex-direction: column;
+justify-content: space-around;}
+
+#textarea {width: 100%;
+display: flex;
+flex-direction: column;
+}
+
+textarea {width: 100%;}
+#sub {width: 30%;}
+
+.integrity {display:  flex;
+justify-content: flex-start;}
+
+#button {width: 20%;}
+
+/*footer for mobile*/
+footer {display: flex;
+justify-content: space-around;
+flex-direction: column;
+background-color: rgba(0, 0, 0, 0.4);
+border-radius: 10px;}
+
+h3 {text-align: center;}
+
+#buttontop {text-align: right;
+position: sticky;
+right: 0px;}
+          
+.contact_info {text-align: center;
+width: auto;
+display: flex;
+flex-direction: column;}
+                  
+.socials {width: auto;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.social_logos {display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.logo {width: 60px;
+margin: 10px;}
+
+#docs {text-align: center;}
+
+#buttontop {text-align: center;
+margin-top: 5%;}
+
+#cssval {display: none;}
+}

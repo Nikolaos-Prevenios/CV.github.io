@@ -21,6 +21,12 @@ h1 {text-align: center;}
 
 #profil {width: 160px;}
 
+
+/*#meny {display: none;}*/
+.showmeny #meny {display: flex;}
+
+
+
 nav {width: 80%;
     background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
@@ -169,3 +175,4 @@ flex-direction: column;}
   .dropdown:hover .dropdown_content {display: block;}
   
   .dropdown:hover .dropdown_button {background-color: rgba(0, 0, 0, 0.4);}
+

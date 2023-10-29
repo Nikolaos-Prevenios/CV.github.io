@@ -12,3 +12,13 @@ function googleTranslateElementInit() {
     layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
      'google_translate_element');
 }
+function show(){
+    document.getElementsById("meny").classList.toggle("showmeny");
+}
+   /*if (document.getElementsByClassName("meny") == "none"){
+    document.getElementsByClassName("meny").style.display = "flex";
+   }
+   else{
+    (
+    document.getElementsByClassName("meny").style.display = "none";
+   )}*/

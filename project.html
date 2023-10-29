@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nikolaos Prevenios CV</title>
-        <link rel="stylesheet" href="css2.css">
+        <link id="theme" rel="stylesheet" type="text/css" href="css2.css">
         <link id="theme" rel="stylesheet" type="text/css" href="css.fil.css">
         <script src ="customisations.js"></script>
         <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
@@ -12,11 +12,11 @@
     <body>
         <h1 id="top"><a href="index.html">Nikolaos Prevenios <br>CV</a></h1>
         <header>
-            <img id="profil" 
-            src="bilder/profilbild2.webp" 
-            alt="Profilbild" 
-            title="Nikolaos Prevenios">
-            <nav>
+            <a href="#" onclick="show()"><img id="profil" 
+                src="bilder/profilbild2.webp" 
+                alt="Profilbild" 
+                title="Nikolaos Prevenios"></a>
+            <nav id="meny">
                 <ul>
                     <li class="menu"><a href="index.html">Home</a></li>
                     <li class="menu"><a href="project.html">Projects</a></li>
@@ -24,7 +24,7 @@
                     <div class="dropdown">
                         <button class="dropdown_button">More</button>
                         <div class="dropdown_content">
-                            <a href="#" onclick="colorblind()">Dark/light mode</a>
+                            <a href="#" onclick="colorblind()">High contrast mode</a>
                             <a href="#" onclick="googleTranslateElementInit()">
                                 <div id="google_translate_element">Translate</div>
                             </a>
@@ -57,12 +57,12 @@
                         <img class="logo" 
                         src="bilder/LI-In-Bug.png" 
                         alt="linkedin" 
-                        title="linkedin link" width="100"></a>
+                        title="LinkedIn" width="100"></a>
                         <a href="https://www.instagram.com/nick.prevenios/"
                         target="_blank">
                         <img class="logo" src="bilder/instagram.png" 
                         alt="instagram" 
-                        title="instagram link" width="80"></a>
+                        title="Instagram" width="80"></a>
                     </div>   
                     <div class="right_logos">
                         <a href="https://www.strava.com/athletes/7482829"
@@ -70,14 +70,14 @@
                         <img class="logo" 
                         src="bilder/pngegg.png" 
                         alt="strava" 
-                        title="strava account" width="90">
+                        title="Strava" width="90">
                         </a>
                         <a href="https://www.youtube.com/channel/UCskxeZ7lFwDXrhYGFosZkrg"
                         target="_blank">
                         <img class="logo" 
                         src="bilder/youtube.png" 
                         alt="youtube" 
-                        title="youtube link" width="100">
+                        title="Youtube" width="100">
                         </a>
                     </div>
                 </div>

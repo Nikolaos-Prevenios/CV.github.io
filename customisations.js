@@ -1,3 +1,4 @@
+/*High Contrast*/
 function colorblind(){
     var theme = document.getElementsByTagName("link")[0];
     if (theme.getAttribute('href') == 'css2.css'){
@@ -7,18 +8,20 @@ function colorblind(){
         theme.setAttribute('href', 'css2.css');
     }
 }
+
+/* Google translate*/
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en', 
     layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
      'google_translate_element');
 }
+
+/*Menu hide and seek*/
 function show(){
-    document.getElementsById("meny").classList.toggle("showmeny");
+    var status = document.getElementById("meny");
+    if (status.style.display === "none")
+    {status.style.display = "flex";}
+    else{
+        status.style.display = "none";
+    }
 }
-   /*if (document.getElementsByClassName("meny") == "none"){
-    document.getElementsByClassName("meny").style.display = "flex";
-   }
-   else{
-    (
-    document.getElementsByClassName("meny").style.display = "none";
-   )}*/

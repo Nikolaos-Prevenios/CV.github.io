@@ -156,7 +156,7 @@ flex-direction: column;}
     display: block;
   }
   
-  .dropdown_content a:hover {background-color: #ddd;}
+  .dropdown_content a:hover {background-color: #0066ff; color: black}
   
   .dropdown:hover .dropdown_content {display: block;}
   

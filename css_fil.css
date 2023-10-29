@@ -44,6 +44,8 @@ font-size: larger;}
 main {display: flex;
 justify-content: space-around;}
 
+#meny {display: none;}
+
 h2 {text-align: center;}
 
 #hobbies, #bio, #exp {border: 2px dashed white;
@@ -60,7 +62,7 @@ figure {display: flex;
 flex-direction: column;
 margin: 0px;}
 
-a.project_button {height: 313px; 
+a.project_button2 {height: 313px; 
 background-image: url(bilder/Skärmbild\ 2023-10-25\ 161701.png);
 border-radius: 10px;}
 
@@ -69,13 +71,22 @@ background-position: 0px 0px;}
 a#csharp:hover {background-position: 0px -313px;}
 a#csharp:active {background-position: 0px -626px;}
 
+a.project_button1 {height: 313px; 
+background-image: url(bilder/Skärmbild\ 2023-10-25\ 161701.png);
+border-radius: 10px;}
+
+a#webpage {width: 500px;
+background-position: 0px 0px;}
+a#webpage:hover {background-position: 0px -313px;}
+a#webpage:active {background-position: 0px -626px;}
 
 
 /*contact me page*/
 
 fieldset {display: flex;
 justify-content: space-around;
-flex-direction: column;}
+flex-direction: column;
+border-radius: 10px;}
 
 .info_upper {display: flex;
 justify-content: space-around;}
@@ -165,14 +176,11 @@ display: block;
 @media only screen and (max-width: 768px){
 
 body {margin: 5%; 
-background-image: url(bilder/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
 font-size: large;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: rgb(233, 236, 245);
-text-shadow: 1px 2px 2px rgb(0, 0, 0);}
+background-color: black;
+color: aliceblue;
+font-size: x-large;}
 
 a {color: white ; text-decoration: none;}
 a:hover {color: blue; font-style: italic;}
@@ -187,8 +195,8 @@ h1 {text-align: center;}
 #profil {width: 160px;}
 
 nav {width: 80%;
-background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
-background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05));
+border: 2px dashed white;
+border-radius: 10px;
 border-radius: 10px;
 display: flex;
 justify-content: center;
@@ -219,6 +227,8 @@ flex-direction: column;}
 
 #hobbies, #bio, #exp {text-align: justify; 
 width: auto;
+border: 2px dashed white;
+border-radius: 10px;
 color: rgb(233, 236, 245);
 text-shadow: 1px 2px 2px rgb(0, 0, 0);}
 

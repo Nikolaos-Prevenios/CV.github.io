@@ -47,7 +47,6 @@ font-size: larger;}
 main {display: flex;
 justify-content: space-around;}
 
-
 #meny {display: none;}
 
 h2 {text-align: center;}
@@ -201,7 +200,7 @@ a:active {color: deeppink; font-style: oblique;}
 
 /*header for mobile*/
 header {display: flex;
-  justify-content: space-evenly;}
+justify-content: space-evenly;}
 
 h1 {text-align: center;}
 

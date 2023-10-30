@@ -325,9 +325,10 @@ align-items: center;
 .logo {width: 60px;
 margin: 10px;}
 
-#docs {text-align: center;}
+#docs {text-align: center;
+margin-bottom: 5%;}
 
-#buttontop {text-align: center;
+#buttontop {text-align: right;
 margin-top: 5%;}
 
 #cssval {display: none;}

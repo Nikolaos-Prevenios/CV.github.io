@@ -25,3 +25,27 @@ function show(){
         status.style.display = "none";
     }
 }
+
+
+// function checkTime(i){
+//     if (i < 10) {
+//         i = "0" + i;
+//     }
+//     return i;
+// }
+
+// function startTime(){
+//     var now = new Date();
+//     var hours = now.getHours();
+//     var minutes = now.getMinutes();
+//     var seconds = now.getSeconds();
+//     minutes = checkTime(minutes);
+//     seconds = checkTime(seconds);
+//     let time = hours + ":" + minutes + ":" + seconds;
+//     document.getElementsById("clock").innerHTML = time;
+//     t = setTimeout(function () {
+//         startTime()
+//     }, 500);
+// }
+
+// startTime();

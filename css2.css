@@ -12,6 +12,11 @@ a {color: white ; text-decoration: none;}
 a:hover {color: blue; font-style: italic;}
 a:active {color: deeppink; font-style: oblique;}
 
+/* .huvud {border: 1px solid black; 
+display: flex;
+justify-content: center;}
+#clock {border: 1px solid black;
+width: 200;} */
 
 /*header inställningar*/
 header {display: flex;
@@ -82,7 +87,6 @@ a#webpage {width: 500px;
 background-position: 0px 0px;}
 a#webpage:hover {background-position: 0px -313px;}
 a#webpage:active {background-position: 0px -626px;}
-
 
 /*contact me page*/
 
@@ -320,7 +324,7 @@ display: flex;
 flex-direction: column;
 }
 
-textarea {width: 100%;}
+textarea {width: auto;}
 #sub {width: 30%;}
 
 .integrity {display:  flex;
